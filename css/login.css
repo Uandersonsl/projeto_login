@@ -1,0 +1,84 @@
+body{
+    /* background-color: #343434; */
+    
+    background-image: url(https://media.giphy.com/media/Kpk8vND5FPGfu/giphy.gif )
+    
+
+ }
+
+    .caixa-login{
+        width: 258px;
+        /* height: 295px; */
+        background-color: white;
+        padding: 20px;
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 12%;
+        border-radius: 4px;
+        box-shadow: 0 0 10px 0 rgba(50,50,50,0.82);
+}
+
+#form-login{
+    margin-top: 45px;
+}
+
+input{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+ 
+}
+
+#btn-entrar{
+    padding: 5px;
+    background-color: #343434;
+    color: white;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Inicio alerta */
+.alerta{ width: 230px;
+    padding: 25px;
+    border: 1px solid rgb(114,28,55);
+    border-radius: 5px;
+    margin-left: 530px;
+    margin-right: auto;
+    background-color: rgba(248,215,218,1);
+    text-align: center;
+    color:rgb(114,28,55);
+    margin-top: -88px;
+    z-index: 9999;
+    position:absolute;
+
+    
+    
+    
+}
+
+.alerta-invisivel{
+    visibility: hidden;
+    
+}
+img{
+    margin-top: -1px;
+    margin-left: -1px;
+}
+
+
+#x{
+
+    position: absolute; 
+    top: 2px;
+    right: 2px;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgba(248,215,218,1);
+}
+  

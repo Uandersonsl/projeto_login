@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> machine learning </title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+
+    <div id="alerta" class="alerta alerta-invisivel">
+    
+        <span  onclick ="this.parentElement.style.display='none'"
+        class="display">Usuário e/ou senha inválidos <button id="x">x</button>  </span>  
+      
+    
+    </div>
+    <div class="caixa-login">
+        <center>
+            <img src="./img/flat-machine-learning-logo-design-600w-779140930.webp" style="width: 200px;height: 90px;"/> 
+        </center>
+        <form id="form-login" action="">
+
+            <label for="login">Login:</label>
+            <input id="login" type="text">
+
+            <label for="senha">Senha:</label>
+            <input id="senha" type="password">
+            <button id="btn-entrar">Entrar</button>
+        </form>    </div>
+
+    <script src="./js/login.js"></script>
+</body>
+
+</html>
